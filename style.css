@@ -1,0 +1,144 @@
+/* /* 
+* Bootstrap Visualization Dashboard - CSS Style Sheet 
+#222930
+#4EB1BA
+#E9E9E9
+*/
+
+/* Body */
+body {
+  background-color: #222930;
+  color: white
+}
+
+/* Navbar */
+.navbar {
+  max-height: 60px;
+  background-color: #222930;
+  font-size: 25px; 
+}
+.navigation .navbar-brand {
+  color: white;
+  margin-left: 0px;
+  padding: inherit;
+  font-weight: bold;
+  background-color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color: white !important;
+}
+.dropdown-item {
+  color:  #222930 !important;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: white !important;
+}
+
+.nav-link:hover {
+  background-color:white !important;
+ }
+
+.navbar-brand:hover {
+color: white !important;
+}
+
+a {
+  color: white;
+  font-size: 15px;
+}
+
+/* Images */
+img{
+  width:100% !important;
+  height:100% !important;
+}
+.active, .panel:hover {
+  border-color: white;
+  border-style: solid;
+  background-color: red !important;
+ 
+}
+.vizualization {
+  width:50% !important;
+  height:50% !important;
+}
+
+/* Title */
+.title {
+  color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+/* Paragraph */
+p {
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+
+/* Box */
+.box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px;
+  color: white;
+  background-color: #222930;
+  box-sizing: border-box;
+
+}
+/* Table */
+.table {
+  font-size: 15px;
+  border-top-color: #f04b4c !important;
+  color: white;
+}
+.table:hover {
+  font-size: 15px;
+  border-top-color: #f04b4c !important;
+  color: white;
+}
+/* Footer */
+footer {
+background-color: #222930;
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: #f04b4c;
+color: white;
+min-height: 60px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 15px;
+}
+
+/* Media Queries */
+@media(max-width: 1100px) {
+  .navbar-expand-lg {
+  background-color: white !important;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: white    ;
+  }
+  .navbar-brand {
+    padding: 10px !important;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
